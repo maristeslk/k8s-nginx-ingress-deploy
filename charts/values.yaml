@@ -295,8 +295,8 @@ controller:
   ## Ref: https://kubernetes.io/docs/user-guide/node-selection/
   ##
   nodeSelector:
-    kubernetes.io/os: 
-    node-role.kubernetes.io/worker:
+    kubernetes.io/os: linux 
+    node-role.kubernetes.io/worker: true
 
   ## Liveness and readiness probe values
   ## Ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes
